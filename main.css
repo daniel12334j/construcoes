@@ -74,7 +74,7 @@ header p{
 
 .cont h2,
 .contap h2{
-    font-size: 3em;
+    font-size: 2em;
     color: rgb(255, 255, 255);
     font-weight: bolder;
 }
@@ -85,8 +85,8 @@ header p{
 
 section p{
     color: white;
-    margin-top: 20px;
-    font-size: 16px;
+    margin-top: 10px;
+    font-size: 13px;
     font-weight: bold;
 }
 
