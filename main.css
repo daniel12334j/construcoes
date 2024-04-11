@@ -262,9 +262,6 @@ footer p{
         width: 100%;
         margin-top: 5px;
     }
-    .cont img{
-    width: 375px;
-    }
 
     section p{
 
@@ -284,6 +281,7 @@ footer p{
     justify-content: center;
     height: 150px;
     width: 150px;
+    margin: 5px auto;
 }
 
 
