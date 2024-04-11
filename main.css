@@ -242,4 +242,11 @@ footer p{
     .cont img{
     width: 375px;
     }
+
+    section p{
+
+    margin-top: 10px;
+    font-size: 16px;
+    font-weigth:200
+}
 }
