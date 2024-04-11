@@ -254,11 +254,12 @@ footer p{
 
     margin-top: 10px;
     font-size: 10px;
-    font-weigth:100
+    font-weigth:100;
 }
 
     .contap a{
     color: #fff;
+        font-weigth:bold;
 }
 
 }
