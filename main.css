@@ -231,6 +231,13 @@ footer p{
     #carousel-img img{
         height: 100px;
     }
+
+    .contap h2{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+    
     .cont{
         display: block;
     }
