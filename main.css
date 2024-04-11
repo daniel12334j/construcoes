@@ -11,6 +11,10 @@ html{
     overflow-x: hidden;
 }
 
+button.slick-next.slick-arrow::before{
+    display: none;
+}
+
 header{
     background-color: orangered;
 }
@@ -88,10 +92,6 @@ section p{
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
-}
-
-section img{
-    margin-left: 10px;
 }
 
     #proposito{
@@ -228,6 +228,9 @@ footer p{
     font-weight: bold;
 }
 @media screen and (max-width:700px){
+    *{
+        overflow-x: hidden;
+    }
     #carousel-img img{
         height: 100px;
     }
@@ -242,6 +245,19 @@ footer p{
         display: block;
     }
 
+    .glass{
+        padding: 10px;
+    
+    }
+
+    .cont{
+        background-color: orangered;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .container{
         width: 100%;
         margin-top: 5px;
@@ -254,12 +270,22 @@ footer p{
 
     margin-top: 3px;
     font-size: 10px;
-    font-weigth:100;
+    font-weight: 100;
 }
+
+.cont img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+}
+
+
 
     .contap a{
     color: #fff;
-        font-weigth:bold;
+        font-weight: bold;
 }
 
 }
